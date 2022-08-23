@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statistical Calculator</title>
+	<link rel="stylesheet" type="text/css" href="site.css">
+</head>
+<body>
+
+<script src="script.js"></script>
+
+<form onSubmit="return performStatistics();" method="post">
+<h2>Statistical Calculator</h2>
+<br>
+Please enter 5 to 20 numbers ranging in value between 0 and 100. <br>
+Use spaces to separate each number.
+<br>
+<br>
+<textarea id="numbers" name="userInput" rows="5" cols="20" required>
+</textarea>
+<br>
+<input type="reset" value="Reset"> <input type="submit" value="Submit">
+<br>
+<br>
+Min:<br>
+<input id="min" name="inputFour" type="text" readonly><br>
+Max:<br>
+<input id="max" name="inputOne" type="text" readonly><br>
+Mean:<br>
+<input id="mean" name="inputTwo" type="text" readonly><br>
+Median:<br>
+<input id="median" name="inputThree" type="text" readonly><br>
+Mode:<br>
+<input id="mode" name="inputFive" type="text" readonly><br>
+Sum:<br>
+<input id="sum" name="inputSeven" type="text" readonly><br>
+Std Dev:<br>
+<input id="stdDev" name="inputSix" type="text" readonly><br>
+Variance:<br>
+<input id="variance" name="inputEight" type="text" readonly><br>
+<br>
+<a href="index.html" class="link nochange">ePortfolio</a></li>
+</form>
+
+</body>
+</html>
